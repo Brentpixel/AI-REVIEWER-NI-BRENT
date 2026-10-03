@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title><?= esc($pageTitle ?? 'Q&A Reviewer') ?> ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Q&A Reviewer Generator</title>
+  <title><?= esc($pageTitle ?? 'Q&A Reviewer') ?> ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Q&A Reviewer Generator</title>
 <script>
   // Dark mode init
   const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
