@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title><?= esc($pageTitle ?? 'Q&A Reviewer') ?> Ã¢â‚¬â€ Q&A Reviewer Generator</title>
+  <title><?= esc($pageTitle ?? 'Q&A Reviewer') ?> ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Q&A Reviewer Generator</title>
 <script>
   // Dark mode init
   const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
@@ -16,7 +16,7 @@
   }
 </script>
   <meta name="description" content="Upload study documents and generate Q&A reviewers powered by AI." />
-  <link rel="stylesheet" href="<?= base_url('css/reviewer.css') ?>" />
+  <link rel="stylesheet" href="<?= base_url('css/reviewer.css?v=<?= time() ?>') ?>" />
 </head>
 <body>
 
